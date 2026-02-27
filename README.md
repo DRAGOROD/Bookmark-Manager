@@ -1,5 +1,7 @@
 Bookmark Manager is a simple web application that allows users to store, view, and delete bookmarks based on selected categories. The application uses the browser’s local storage to persist data, meaning bookmarks remain saved even after refreshing the page.
 
+**⭐Project Link:-** https://dragorod.github.io/Bookmark-Manager/
+
 **🛠️ Toolkits**
 HTML5
 CSS
