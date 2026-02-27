@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark Manager</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <main>
+    <section id="main-section">
+      <h1>Bookmark Manager</h1>
+      <!-- Category Dropdown -->
+      <div id="dropdown">
+        <label for="category-dropdown">Select a category:</label>
+        <select id="category-dropdown" name="options">
+          <option value="news" selected>News</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="work">Work</option>
+          <option value="miscellaneous">Miscellaneous</option>
+        </select>
+      </div>
+      <!-- Main Buttons -->
+      <div id="buttons">
+        <button type="button" id="view-category-button">
+          View Category
+        </button>
+        <button type="button" id="add-bookmark-button">
+          Add Bookmark
+        </button>
+      </div>
+    </section>
+    <section id="form-section" class="hidden">
+      <form>
+        <!-- Displays selected category -->
+        <h2 class="category-name"></h2>
+        <!-- Name Input -->
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <!-- URL Input -->
+        <div>
+          <label for="url">URL:</label>
+          <input type="text" id="url">
+        </div>
+        <!-- Form Buttons -->
+        <div>
+          <button type="button" id="close-form-button">
+            Go Back
+          </button>
+          <button type="button" id="add-bookmark-button-form">
+            Add Bookmark
+          </button>
+        </div>
+      </form>
+    </section>
+    <section id="bookmark-list-section" class="hidden">
+      <h2 class="category-name"></h2>
+      <!-- Dynamic bookmark list -->
+      <div id="category-list"></div>
+      <!-- List Buttons -->
+      <div>
+        <button type="button" id="close-list-button">
+          Go Back
+        </button>
+        <button type="button" id="delete-bookmark-button">
+          Delete Bookmark
+        </button>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
