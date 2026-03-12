@@ -3,7 +3,7 @@ Bookmark Manager is a simple web application that allows users to store, view, a
 **⭐Project Link:-** https://dragorod.github.io/Bookmark-Manager/
 
 **🛠️ Toolkits**
-HTML5
+HTML
 CSS
 JavaScript
 
@@ -30,7 +30,7 @@ How to work with localStorage
 How to validate stored JSON data
 HTML rendering with .map() and .join()
 
-🚀 Possible Improvements
+**🚀 Possible Improvements**
 Add form validation 
 Add edit functionality for bookmarks
 Add search functionality
